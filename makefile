@@ -14,7 +14,7 @@ default:
 	./ent dry16.bin 89 >> log.txt
 	echo "Entropy of text only section of 32-bit GCC compiled code - 32-bit x86" >> log.txt
 	./ent dry32.bin FF >> log.txt
-	echo "Entropy of text only section of 64-bit gcc compiled code - 64-bit x86" >> log.txt
+	echo "Entropy of text only section of 64-bit GCC compiled code - 64-bit x86" >> log.txt
 	./ent dry64.bin 48 >> log.txt
 
 
